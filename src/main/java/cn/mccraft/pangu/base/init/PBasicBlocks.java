@@ -19,6 +19,12 @@ public interface PBasicBlocks {
     @RegBlock(value = {"silver", "ore"}, oreDict = {"oreSilver"})
     Block SILVER_ORE = new PGBlock(Material.ROCK).setHarvestLevelR("pickaxe", 1).setSoundType(SoundType.STONE).setHardness(3.0F).setResistance(5.0F);
 
+    @RegBlock(value = {"cinnabar", "ore"},oreDict = {"oreCinnabar"})
+    Block CINNABAR_ORE = new PGBlock(Material.ROCK).setHarvestLevelR("pickaxe", 1).setSoundType(SoundType.STONE).setHardness(3.0F).setResistance(5.0F);
+
+    @RegBlock(value = {"jade", "ore"},oreDict = {"oreJade"})
+    Block JADE_ORE = new PGBlock(Material.ROCK).setHarvestLevelR("pickaxe", 2).setSoundType(SoundType.STONE).setHardness(3.0F).setResistance(5.0F);
+
     @RegBlock(value = {"copper", "block"}, oreDict = {"blockCopper"})
     Block COPPER_BLOCK = new PGBlock(Material.IRON).setHarvestLevelR("pickaxe", 1).setSoundType(SoundType.STONE).setHardness(3.0F).setResistance(10.0F);
 
